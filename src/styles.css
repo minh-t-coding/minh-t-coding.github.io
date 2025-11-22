@@ -1,9 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
 body {
     margin: 0;
-    font-family: "Comic Sans MS", cursive, sans-serif;
-    background-image: url("./assets/spacebg.gif");
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-image: url('./assets/spacebg.gif');
     color: #ffffff;
+}
+
+#root {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 main {
@@ -14,6 +21,7 @@ main {
     font-size: 20px;
     padding: 10px 10px;
     outline: solid #fff 1px;
+    flex: 1;
 }
 
 a {
