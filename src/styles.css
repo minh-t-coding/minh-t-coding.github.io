@@ -12,7 +12,7 @@ main {
     max-width: 900px;
     line-height: 1.6;
     font-size: 20px;
-    padding: 0 10px;
+    padding: 10px 10px;
     outline: solid #fff 1px;
 }
 
