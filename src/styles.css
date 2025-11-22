@@ -1,1 +1,38 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    margin: 0;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    background-image: url("./assets/spacebg.gif");
+    color: #ffffff;
+}
+
+main {
+    background-color: #0a0a0a;
+    margin: 40px auto;
+    max-width: 900px;
+    line-height: 1.6;
+    font-size: 20px;
+    padding: 0 10px;
+    outline: solid #fff 1px;
+}
+
+a {
+    color: BLUEVIOLET;
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
