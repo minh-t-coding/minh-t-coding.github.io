@@ -1,0 +1,12 @@
+nav {
+  font-size: 22px;
+  margin: 100px 100px;
+}
+
+.links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
