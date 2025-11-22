@@ -1,12 +1,18 @@
 nav {
   font-size: 22px;
-  margin: 100px 100px;
+  margin: 20px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .links {
   list-style: none;
   display: flex;
   justify-content: center;
-  align-items: center;
   gap: 2rem;
+}
+
+.logo {
+  justify-content: flex-start;
 }
