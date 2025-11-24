@@ -26,6 +26,16 @@ img {
 h2 {
     color: #ffff00;
     margin: 0;
+    display: inline;
+}
+
+.banana {
+    width: 42px;
+    height: auto;
+    vertical-align: middle;
+    position: relative;
+    top: -10px;
+    margin-left: 10px;
 }
 
 code {
