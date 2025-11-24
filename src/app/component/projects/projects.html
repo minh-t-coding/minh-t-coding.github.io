@@ -2,14 +2,14 @@
     <article>
         @for (p of projects; track p.title) {
         <div class="project">
-            <img src="{{p.img}}" alt="{{p.alt}}" />
+            <img src="{{ p.img }}" alt="{{ p.alt }}" />
             <div class="project-content">
                 <h2>
-                    <a href="{{p.url}}" target="_blank">{{p.title}}</a>
+                    <a href="{{ p.url }}" target="_blank">{{ p.title }}</a>
                 </h2>
-                <h3>{{p.subtitle}}</h3>
+                <h3>{{ p.subtitle }}</h3>
                 <p>
-                    {{p.description}}
+                    {{ p.description }}
                 </p>
             </div>
         </div>
