@@ -1,0 +1,23 @@
+.placard {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.placard-text {
+    text-align: left;
+    font-size: 1rem;
+    width: 500px;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.about-me {
+    margin: 100px;
+}

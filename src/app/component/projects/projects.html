@@ -1,6 +1,7 @@
 <main>
     <article>
-        <div class="project" *ngFor="let p of projects">
+        @for (p of projects; track p.title) {
+        <div class="project">
             <img src="{{p.img}}" alt="{{p.alt}}" />
             <div class="project-content">
                 <h2>
@@ -12,5 +13,6 @@
                 </p>
             </div>
         </div>
+        }
     </article>
 </main>
