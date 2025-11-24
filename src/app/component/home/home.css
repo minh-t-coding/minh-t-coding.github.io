@@ -5,8 +5,9 @@
 }
 
 .placard-text {
+    margin-top: 40px;
     text-align: left;
-    font-size: 1rem;
+    font-size: 0.8rem;
     width: 500px;
 }
 
@@ -19,5 +20,18 @@ img {
 }
 
 .about-me {
-    margin: 100px;
+    margin: 0 80px;
+}
+
+h2 {
+    color: #ffff00;
+    margin: 0;
+}
+
+code {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: hotpink;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: hotpink;
 }
