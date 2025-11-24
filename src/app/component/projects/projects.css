@@ -1,0 +1,46 @@
+.project {
+    display: flex;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 1rem 0;
+    padding: 1rem;
+    gap: 1.5rem;
+}
+
+.project img {
+    width: 400px;
+    height: auto;
+}
+
+.project-content h2 {
+    margin: 0 0 0.25rem 0;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.project-content h3 {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.1rem;
+    color: #666;
+    font-weight: normal;
+}
+
+.project-content p {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #444;
+}
+
+.project-content h2 {
+    color: #00ffff;
+}
+
+.project-content h3 {
+    color: #ffff00;
+}
+
+.project-content p {
+    color: #ff00ff;
+}
