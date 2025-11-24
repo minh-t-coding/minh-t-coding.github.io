@@ -29,3 +29,28 @@
     font-size: 1rem;
     line-height: 1.5;
 }
+
+.toggle-container {
+    display: flex;
+    gap: 12px;
+    margin: 20px 0;
+    justify-content: center;
+}
+
+.toggle-btn {
+    padding: 8px 16px;
+    border: 2px solid BLUEVIOLET;
+    background: transparent;
+    color: BLUEVIOLET;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.toggle-btn.active {
+    background: BLUEVIOLET;
+    color: #0a0a0a;
+}
+
+.toggle-btn:hover {
+    filter: brightness(0.9);
+}

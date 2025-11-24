@@ -5,4 +5,5 @@ export interface Project {
     url: string;
     subtitle: string;
     description: string;
+    category: 'web' | 'games';
 }

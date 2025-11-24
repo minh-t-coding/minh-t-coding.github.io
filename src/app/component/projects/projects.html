@@ -1,6 +1,24 @@
 <main>
     <article>
-        @for (p of projects; track p.title) {
+        <div class="toggle-container">
+            <button
+                class="toggle-btn"
+                [class.active]="activeView === 'web'"
+                (click)="setView('web')"
+            >
+                Web Dev
+            </button>
+
+            <button
+                class="toggle-btn"
+                [class.active]="activeView === 'games'"
+                (click)="setView('games')"
+            >
+                Games
+            </button>
+        </div>
+
+        @for (p of filteredProjects; track p.title) {
         <div class="project">
             <img src="{{ p.img }}" alt="{{ p.alt }}" />
             <div class="project-content">
@@ -8,9 +26,7 @@
                     <a href="{{ p.url }}" target="_blank">{{ p.title }}</a>
                 </h2>
                 <h3>{{ p.subtitle }}</h3>
-                <p>
-                    {{ p.description }}
-                </p>
+                <p>{{ p.description }}</p>
             </div>
         </div>
         }
