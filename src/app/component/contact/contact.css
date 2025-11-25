@@ -19,7 +19,7 @@ textarea {
     border: 1px solid #ccc;
 }
 
-button[type="submit"] {
+button[type='submit'] {
     background-color: #c0c0c0;
     color: #000;
     border: 2px solid #808080;
@@ -27,7 +27,7 @@ button[type="submit"] {
     border-left-color: #ffffff;
     border-radius: 0;
     padding: 4px 8px;
-    font-family: "Tahoma", sans-serif;
+    font-family: 'Tahoma', sans-serif;
     font-size: 14px;
     cursor: default;
     box-shadow: inset -1px -1px 0 #808080, inset 1px 1px 0 #ffffff;
@@ -36,4 +36,16 @@ button[type="submit"] {
 
 button:hover {
     transform: scale(1.01);
+}
+
+@media (max-width: 1200px) {
+    form {
+        margin: 1rem auto;
+        padding: 0 10px;
+    }
+
+    input,
+    textarea {
+        font-size: 16px; /* Prevents zoom on iOS */
+    }
 }

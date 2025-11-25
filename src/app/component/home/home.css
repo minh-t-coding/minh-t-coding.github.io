@@ -45,3 +45,25 @@ code {
     text-decoration-style: wavy;
     text-decoration-color: hotpink;
 }
+
+@media (max-width: 1200px) {
+    .placard {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .placard-text {
+        width: 100%;
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .about-me {
+        margin: 30px 20px;
+    }
+
+    img {
+        width: 120px;
+        height: 120px;
+    }
+}
