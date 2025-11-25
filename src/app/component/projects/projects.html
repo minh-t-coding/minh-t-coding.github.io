@@ -1,21 +1,26 @@
 <main>
     <article>
         <div class="toggle-container">
-            <button
-                class="toggle-btn"
-                [class.active]="activeView === 'web'"
-                (click)="setView('web')"
-            >
-                Web Dev
-            </button>
-
-            <button
-                class="toggle-btn"
-                [class.active]="activeView === 'games'"
-                (click)="setView('games')"
-            >
-                Games
-            </button>
+            <div>
+                <button
+                    class="toggle"
+                    [class.active]="activeView === 'web'"
+                    (click)="setView('web')"
+                >
+                    <h3>WEB</h3>
+                    <img src="assets/web.gif" alt="Web projects" />
+                </button>
+            </div>
+            <div>
+                <button
+                    class="toggle"
+                    [class.active]="activeView === 'games'"
+                    (click)="setView('games')"
+                >
+                    <h3>GAMES</h3>
+                    <img src="assets/vg1.gif" alt="Game projects" />
+                </button>
+            </div>
         </div>
 
         @for (p of filteredProjects; track p.title) {

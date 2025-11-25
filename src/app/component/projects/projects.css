@@ -32,25 +32,35 @@
 
 .toggle-container {
     display: flex;
-    gap: 12px;
-    margin: 20px 0;
     justify-content: center;
+    gap: 50px;
 }
 
-.toggle-btn {
-    padding: 8px 16px;
-    border: 2px solid BLUEVIOLET;
+.toggle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background: transparent;
-    color: BLUEVIOLET;
+    gap: 2px;
+    border: none;
     cursor: pointer;
-    transition: 0.2s;
+    color: #ffff00a2;
+    font-size: 1rem;
 }
 
-.toggle-btn.active {
-    background: BLUEVIOLET;
-    color: #0a0a0a;
+.toggle.active {
+    color: #ffff00;
 }
 
-.toggle-btn:hover {
-    filter: brightness(0.9);
+.toggle:hover {
+    filter: brightness(0.92);
+}
+
+.toggle h3 {
+    margin-bottom: 5px;
+}
+
+.toggle img {
+    width: 97px;
+    height: 31px;
 }
