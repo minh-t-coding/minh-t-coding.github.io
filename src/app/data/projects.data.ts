@@ -2,21 +2,23 @@ import { Project } from '../models/project.model';
 
 export const PROJECTS: Project[] = [
     {
-        img: 'assets/work/twitter-api.PNG',
-        alt: 'Twitter API Screenshot',
+        img: 'assets/work/dashboard.PNG',
+        alt: 'Project Management Dashboard Screenshot',
         title: 'Project Management Dashboard',
         url: 'https://github.com/minh-t-coding/project-management-dashboard',
-        subtitle: 'Full-stack project management dashboard',
-        description: 'Project management dashboard',
+        subtitle: 'Full-stack Dashboard Web App',
+        description:
+            'Company project management system built with Java Spring, PostgreSQL, and Angular. Implemented features for managing announcements, teams, projects, and users across multiple companies.',
         category: 'web',
     },
     {
-        img: 'assets/work/twitter-api.PNG',
-        alt: 'Twitter API Screenshot',
-        title: 'Pokemon Guessing Game',
+        img: 'assets/work/whos-that-pokemon.PNG',
+        alt: "Who's That Pokémon Screenshot",
+        title: "Who's That Pokémon?",
         url: 'https://github.com/minh-t-coding/whos-that-pokemon',
-        subtitle: 'Pokemon Guessing Game',
-        description: "Who's that pokemon?",
+        subtitle: 'Front End Guessing Game',
+        description:
+            'Interactive Pokémon guessing game built with Angular and NgRx. Developed core game logic, including hint system, scoring, and data retrieval from PokeAPI v2. Implemented settings modal to locally store user preferences for music and sound effects volume.',
         category: 'web',
     },
     {
@@ -57,6 +59,26 @@ export const PROJECTS: Project[] = [
         subtitle: 'Physics-based Music Sandbox',
         description:
             'Solo developed Unity physics-based sandbox music game. Players draw notes on a canvas and release a ball to play music based on the surfaces it hits. Maps can be saved, shared, and imported, letting players create and explore intricate musical creations.',
+        category: 'games',
+    },
+    {
+        img: 'assets/work/dryer-flyer.png',
+        alt: 'Dryer FLyer Screenshot',
+        title: 'Dryer Flyer',
+        url: 'https://aaaalan.itch.io/dryer-flyer',
+        subtitle: '3D Hair Dryer Obstacle Game',
+        description:
+            '3D movement game where players must reach the end while managing their cord length and prevailing against household obstacles. Personally worked on some of the obstacle scripting, revive/restart, and settings menu.',
+        category: 'games',
+    },
+    {
+        img: 'assets/work/sticko-mode.png',
+        alt: 'Sticko Mode Screenshot',
+        title: 'Sticko Mode',
+        url: 'https://ogunasekara.itch.io/sticko-mode',
+        subtitle: 'Strategic Rhythm Game',
+        description:
+            'Carefully plan your route in PREDICTO mode, then play a high-stakes rhythm game to execute your moves in STICKO mode. I worked on the movement, the tutorial modals, and designed some of the levels.',
         category: 'games',
     },
 ];
